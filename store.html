@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <!-- character encoding -->
+        <meta charset="UTF-8">
+        <!-- title tag -->
+        <title>Glinting Project - Christopher Dolan</title>
+        <!-- mobile-friendly viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- W3.CSS stylesheet -->
+        <link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+        <!-- custom style -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+       <!-- Container (Teams Section) -->
+        <section>
+
+            <div class="w3-row">
+                <div class="w3-half">
+                            <div class="w3-top">
+            <div class="w3-bar w3-black">
+                <button class="w3-bar-item w3-button w3-hide-small" onclick="openTab('New Arrivals')">New Arrivals</button>
+                <button class="w3-bar-item w3-button w3-hide-small" onclick="openTab('Music')">Music</button>
+                <button class="w3-bar-item w3-button w3-hide-small" onclick="openTab('Apparel')">Apparel</button>
+                <button class="w3-bar-item w3-button w3-hide-small" onclick="openTab('Accessories')">Accessories</button>
+                <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="topNav()">&#9776;</a>
+            </div>
+            <div id="mobileNav" class="w3-bar-block w3-pink w3-hide w3-hide-large w3-hide-medium">
+                <button class="w3-bar-item w3-button" onclick="openTab('New Arrivals')">New Arrivals</button>
+                <button class="w3-bar-item w3-button" onclick="openTab('Music')">Music</button>
+                <button class="w3-bar-item w3-button" onclick="openTab('Apparel')">Apparel</button>
+                <button class="w3-bar-item w3-button" onclick="openTab('Accessories')">Accessories</button>
+            </div>
+        </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <!-- teams tab content -->
+
+                    <div id="New Arrivals" class="tab w3-padding-64">
+                        <div class="row">
+                            <div class="w3-col m4 w3-center">
+                                <div class="card">
+                                    <img src="img/GlintingVinyl.jpg" alt="Avatar" style="width:100%">
+                                    <div class="container">
+                                        <h4><b>Glinting Vinyl : $19.67 </b></h4> 
+                                        <p><b><button class="w3-button w3-teal w3-round-xxlarge"> <a href="#">Add to Cart</a></button></b></p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="w3-col m4 w3-center">
+                                <div class="card">
+                                    <img src="img/Shirt.jpg" alt="Avatar" style="width:100%; padding-bottom: 50px;">
+                                    <div class="container">
+                                        <h4><b>Glinting - Strangers (CD) : $13.96</b></h4>
+                                        <p><b><button class="w3-button w3-teal w3-round-xxlarge"> <a href="#">Add to Cart</a></button></b></p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="w3-col m4 w3-center">
+                                <div class="card">
+                                    <img src="img/Shirt.jpg" alt="Avatar" style="width:100%; padding-bottom: 50px;">
+                                    <div class="container">
+                                        <h4><b>Glinting - Strangers (CD) : $13.96</b></h4>
+                                        <p><b><button class="w3-button w3-teal w3-round-xxlarge"> <a href="#">Add to Cart</a></button></b></p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="w3-col m4 w3-center">
+                                <div class="card">
+                                    <img src="img/Shirt.jpg" alt="Avatar" style="width:100%; padding-bottom: 50px;">
+                                    <div class="container">
+                                        <h4><b>Glinting - Strangers (CD) : $13.96</b></h4>
+                                        <p><b><button class="w3-button w3-teal w3-round-xxlarge"> <a href="#">Add to Cart</a></button></b></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div id="Music" class="tab w3-padding-64" style="display:none">
+                        <div class="row">
+                            <div class="w3-col s12 m6 l6">
+                                <div class="card">
+                                    <img src="img/GlintingVinyl.jpg" alt="Avatar" style="width:100%">
+                                    <div class="container">
+                                        <h4><b>Glinting Vinyl : $19.67 </b></h4> 
+                                        <p><b><button class="w3-button w3-teal w3-round-xxlarge"> <a href="#">Add to Cart</a></button></b></p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="w3-col s12 m6 l6">
+                                <div class="card">
+                                    <img src="img/strangers.jpg" alt="Avatar" style="width:100%">
+                                    <div class="container">
+                                        <h4><b>Glinting - Strangers (CD) : $13.96</b></h4>
+                                        <p><b><button class="w3-button w3-teal w3-round-xxlarge"> <a href="#">Add to Cart</a></button></b></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="Apparel" class="tab w3-padding-64" style="display:none">
+                        <h2>Tokyo</h2>
+                        <p>Tokyo is the capital of Japan.</p>
+                    </div>
+                    
+                    <div id="Accessories" class="tab w3-padding-64" style="display:none">
+                        <h2>Tokyo</h2>
+                        <p>Tokyo is the capital of Japan.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <script src="js/tabs.js"></script>
+        <script src="js/topNav.js"></script>
+    </body>
+
+</html>
