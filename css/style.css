@@ -64,8 +64,11 @@ body, html {
     .bgimg-1 {
         display: none;
     }
-    .bgimg-1small {
-        display: block;
+        .bgimg-2 {
+        display: none;
+    }
+        .bgimg-3 {
+        display: none;
     }
 }
 
