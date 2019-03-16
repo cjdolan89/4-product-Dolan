@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 
-<html lang="en">
-
+<html>
+    
+    <!--metadata-->
+    
     <head>
         <!-- character encoding -->
         <meta charset="UTF-8">
         <!-- title tag -->
-        <title>Glinting Project - Christopher Dolan</title>
+        <title>cjdolan productions</title>
         <!-- mobile-friendly viewport -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- W3.CSS stylesheet -->
@@ -15,249 +17,36 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-
+    
+    <!--content goes in body tag-->
     <body>
-                <!-- top nav, desktop and tablet -->
-        <div class="w3-top">
-            <div class="w3-bar w3-black">
-                <a href="#" class="w3-bar-item w3-button">Glinting</a>
-                <a href="store.html" class="w3-bar-item w3-button w3-hide-small">Store</a>
-                <a href="#concert" class="w3-bar-item w3-button w3-hide-small">Concert</a>
-                <a href="social.html" class="w3-bar-item w3-button w3-hide-small">Social Media</a>
-                <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="topNav()">&#9776;</a>
-            </div>
-            <div id="mobileNav" class="w3-bar-block w3-pink w3-hide w3-hide-large w3-hide-medium">
-                <a href="store.html" class="w3-bar-item w3-button">Store</a>
-                <a href="concert.html" class="w3-bar-item w3-button">Concert</a>
-                <a href="social.html" class="w3-bar-item w3-button">Social Media</a>
-            </div>
-        </div>
-        
-        
-        <!-- First Parallax Image with Logo Text -->
-        <div class="bgimg-1 w3-display-container " id="home">
-         
-        </div>
-        
-        
-<!-- Second Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">Store</span>
-  </div>
-</div>
-
-<!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64" id="portfolio">
-
-  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-  <div class="w3-row-padding w3-center">
-    <div class="w3-col m3">
-      <img src="/img/GlintingVinyl.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Glinting - Vinyl">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/img/iced_Tea.jpg" style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt="Iced Tea">
-    </div>
-      
-    <div class="w3-col m3">
-      <img src="/img/Sweatshirt.jpg" style="width:120%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sweatshirt">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/img/Shirt.jpg" style="width:120%" onclick="onClick(this)" class="w3-hover-opacity" alt="shirt">
-    </div>
-  </div>
-
-  <div class="w3-row-padding w3-center w3-section">
-    <button class="w3-button w3-padding-large w3-teal w3-round-xlarge" style="margin-top:64px"><a href="store.html" class="w3-bar-item w3-button1 w3-theme-l6">Visit Store</a></button>
-  </div>
-</div>
+        <div class="bgimg-2">
             
+            <div class="w3-display-middle w3-center">
+                <span class="w3-xxlarge w3-text-khaki w3-wide">christopher j. dolan</span>
+            </div>
             
-            <!-- Third Parallax Image with Portfolio Text -->
-<div id="concert" class="bgimg-3 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-white w3-wide">Book a Concert</span>
-  </div>
-</div>
-        <div>
-            <section>
-                <div class="w3-cell-row">
-                    <div class="w3-cell w3-mobile w3-container w3-light-gray">
-                        <h5>5/31/2018</h5>
-                    </div>
-                    <div class="w3-cell w3-mobile w3-container w3-light-gray">
-                        <h5>Boston, MA</h5>
-                    </div>
-                    <div class="w3-cell w3-mobile w3-container w3-light-gray">
-                       <div  id="myBtn"><p><button class="w3-button w3-teal w3-round-xxlarge">RSVP</button></p></div>
+            <div>
+                <p><button class="w3-button w3-display-position w3-padding w3-gray w3-round-large w3-display-bottomright"> <a href="index.html">Go to Site</a></button></p>
+            </div>
+            
+            <div class="w3-display-position w3-padding  w3-center w3-display-bottommiddle" >
+                <div class="w3-xlarge w3-section">
+                    <a href="https://www.facebook.com/profile.php?id=100009192630018" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity w3-black"></i></a>
+                    
+                    <a href="https://www.instagram.com/glinting_official" target="_blank"><i class="fa fa-instagram w3-hover-opacity w3-black"></i></a>
+                    
+                    <a href="#" target="_blank"><i class="fa fa-snapchat w3-hover-opacity w3-black"></i></a>
                         
-                        <!-- The Modal -->
-                                <div id="myModal" class="modal">
-
-                                  <!-- Modal content -->
-                                  <div class="modal-content">
-                                    <span class="close">&times;</span>
-                                    
-                                        <div class="row">
-                                            <div class="w3-col m6 w3-center">
-                                                <div>
-                                                    <img src="img/Ticketmaster+Cover.jpg" style="width: 100%; padding-right: 20px; padding-top: 30px ">
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="w3-col m6 w3-center">
-                                                <h2>May 31, 2018</h2>
-                                                <h3>Speciel guests</h3>
-                                                <p>Lunar Soul</p>
-                                                <p>Sosha Stecher</p>
-                                                <p>and Lil' Mic</p>
-                                                <p>............</p>
-                                                <div class="container">
-                                                        <p><button class="w3-button w3-teal w3-round-xxlarge"><a href="https://www.ticketmaster.com/">Buy Tickets</a></button></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                    </div>
-                </div>
-                
-                
-                <div class="w3-cell-row">
-                    <div class="w3-cell w3-mobile w3-container w3-light-gray">
-                        <h5>6/05/2018</h5>
-                    </div>
-                    <div class="w3-cell w3-mobile w3-container w3-light-gray">
-                        <h5>Newport, RI</h5>
-                    </div>
-                    <div class="w3-cell w3-mobile w3-container w3-light-gray">
-                        <div  id="myBtn"><p><button class="w3-button w3-teal w3-round-xxlarge">RSVP</button></p></div>
-                        
-                        <!-- The Modal -->
-                                <div id="myModal" class="modal">
-
-                                  <!-- Modal content -->
-                                  <div class="modal-content">
-                                    <span class="close">&times;</span>
-                                    
-                                        <div class="row">
-                                            <div class="w3-col m6 w3-center">
-                                                <div>
-                                                    <img src="img/Ticketmaster+Cover.jpg" style="width: 100%; padding-right: 20px; padding-top: 30px ">
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="w3-col m6 w3-center">
-                                                <h2>May 31, 2018</h2>
-                                                <h3>Speciel guests</h3>
-                                                <p>Lunar Soul</p>
-                                                <p>Sosha Stecher</p>
-                                                <p>and Lil' Mic</p>
-                                                <p>............</p>
-                                                <div class="container">
-                                                        <p><button class="w3-button w3-teal w3-round-xxlarge"><a href="https://www.ticketmaster.com/">Buy Tickets</a></button></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                    </div>
-                </div>
-                
-                
-                <div class="w3-cell-row">
-                    <div class="w3-cell w3-mobile w3-container w3-light-gray">
-                        <h5>6/07/2018</h5>
-                    </div>
-                    <div class="w3-cell w3-mobile w3-container w3-light-gray">
-                        <h5>Atlanta, GA</h5>
-                    </div>
-                    <div class="w3-cell w3-mobile w3-container w3-light-gray">
-                        <div  id="myBtn"><p><button class="w3-button w3-teal w3-round-xxlarge">RSVP</button></p></div>
-                        
-                        <!-- The Modal -->
-                                <div id="myModal" class="modal">
-
-                                  <!-- Modal content -->
-                                  <div class="modal-content">
-                                    <span class="close">&times;</span>
-                                    
-                                        <div class="row">
-                                            <div class="w3-col m6 w3-center">
-                                                <div>
-                                                    <img src="img/Ticketmaster+Cover.jpg" style="width: 100%; padding-right: 20px; padding-top: 30px ">
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="w3-col m6 w3-center">
-                                                <h2>May 31, 2018</h2>
-                                                <h3>Speciel guests</h3>
-                                                <p>Lunar Soul</p>
-                                                <p>Sosha Stecher</p>
-                                                <p>and Lil' Mic</p>
-                                                <p>............</p>
-                                                <div class="container">
-                                                        <p><button class="w3-button w3-teal w3-round-xxlarge"><a href="https://www.ticketmaster.com/">Buy Tickets</a></button></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-        
-        
-        
-<!-- Container (Contact Section) -->
-<div class="w3-content w3-container w3-padding-40" id="contact">
-  <div class="w3-row w3-padding-32 w3-section">
-
-    <div class="w3-col m8 w3-panel">
-      <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Chicago, US<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 978.806.7413<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: Christopher.Dolan@loop.colum.edu<br>
-      </div>
-      <p>Call or email to book a concert</p>
-      <form action="/action_page.php" target="_blank">
-        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-          </div>
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-          </div>
-        </div>
-        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-        <button class="w3-button w3-black w3-right w3-section" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </form>
-    </div>
-  </div>
-</div>
-
-              
-              
-              
-              <!-- Footer-->
-              <footer class="w3-center w3-black w3-padding-64">
-                  <a href="#home" class="w3-button w3-teal"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-                  <div class="w3-xlarge w3-section">
-                    <i class="fa fa-facebook-official w3-hover-opacity"><a href="#"></a></i>
-                      <a href="https://www.instagram.com/glinting_official" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
-                    <i class="fa fa-snapchat w3-hover-opacity"><a href="#"></a></i>
-                    <i class="fa fa-pinterest-p w3-hover-opacity"><a href="#"></a></i>
-                    <i class="fa fa-twitter w3-hover-opacity"><a href="#"></a></i>
-                    <i class="fa fa-linkedin w3-hover-opacity"><a href="#"></a></i>
+                    <a href="#" target="_blank"><i class="fa fa-pinterest-p w3-hover-opacity w3-black"></i></a>
+                    
+                    <a href="https://twitter.com/cjdolan_89" target="_blank"><i class="fa fa-twitter w3-hover-opacity w3-black"></i></a>
+                    
+                    <a href="https://www.linkedin.com/in/christopher-j-dolan" target="_blank"><i class="fa fa-linkedin w3-hover-opacity w3-black"></i></a>
                   </div>
-             </footer>
-                <script src="js/topNav.js"></script>
-        <script src="js/modal.js"></script>
+            </div>
+        </div>
+        
     </body>
 
 </html>
