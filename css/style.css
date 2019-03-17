@@ -70,7 +70,7 @@ body, html {
     width: 100%;
     height: 500px;
     background-size: contain;
-    background-color: black;
+    background-color: #000000;
 }
 
 .bgimg-4 {
@@ -86,22 +86,42 @@ body, html {
 .w3-hover-opacity {cursor: pointer;}
 
 /* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-width: 200px) {
+@media only screen and (max-width: 500px) {
     .bgimg-1 {
-        display: none;
+        width: 100%;
+        height: 650px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #272727;
     }
     .bgimg-11 {
-        display: none;
+        width: 100%;
+        height: 250px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #272727;
     }
     .bgimg-2 {
-        display: none;
+        width: 100%;
+        height: 250px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: black;
     }
     .bgimg-3 {
-        display: none;
+        width: 100%;
+        height: 250px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #000000;
     }
     
     .bgimg-4 {
-        display: none;
+        width: 100%;
+        height: 700px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #32353b;
     }
 }
 
